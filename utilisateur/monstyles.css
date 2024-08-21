@@ -1,0 +1,322 @@
+/*GENERAL*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+a{
+    color: rgb(22, 22, 23);
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+ul{
+    list-style: none;
+}
+header li {
+    margin: 10px 0;
+    color: black;
+    font-size: 16px;
+}
+header h1{
+    color: #000;
+    font-size: 15px;
+    border-bottom: #111 solid;
+}
+
+h3{
+    color: black;
+    opacity: 0.8;  
+}
+header h6{
+    border-top: #111 solid;
+}
+/*CONNEXION*/
+.container-connexion{
+    width: 400px;
+    height: 400px;
+    background-position:  center;
+    background-color: #e6e6ee;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    transform: translateX(50%);
+    margin-bottom: 1.5rem;
+   
+}
+.title {
+    font-size: 2rem;
+    color: #111;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+}
+
+
+.container-connexion .row{
+    margin-bottom: 20px;
+    width: 500px;
+    
+}
+.col-md-12{
+    
+   
+    
+}
+.col-md-12[type="submit"]{
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.container-general{
+    height: 100vh;
+    display: flex;
+}
+/*tableau de bord*/
+
+header {
+    font-family: 'Arial', sans-serif;
+    background: #fff;
+    color: #fff;
+    padding: 15px;
+    border-right: #111 3px solid;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.container-table{
+   display: flex;
+   flex-direction: column;
+   flex: 1;
+   padding: 20px;
+   height: 100vh;
+    
+}
+
+.table{
+    padding: 20px;
+    background: #fff;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #e6e6e6;
+}
+.col-md-6{
+    background: #fff ;
+    color: #050505;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+    height: 100%;
+    transition: transform 0.2s;
+}
+.box{
+    width: 70%;
+    margin: 0 60px;
+    text-align: center;
+    padding: 30px;
+    background: #FFE4B5;
+    border-radius: 7px;
+    border: 2px solid #000;
+    margin-bottom: 20px;
+    height: 200px;
+}
+/*ajouter eleve et modifier eleve*/
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+
+
+
+
+.inscription {
+    max-width: 600px;
+    background-position: center center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
+    transform: translateX(50%);
+    margin-bottom: 1.5rem;
+    box-sizing: border-box;
+    
+      }
+
+.annuler{
+    background-color:red ;
+}
+
+.enregistrer{
+    background-color: #000;
+}
+
+.titre {
+    font-size: 2rem;
+    color: #000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.boite-form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.boite {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-box, .input-box-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-boite p, .input-boite-2 p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 8px;
+}
+.champ-input[type="file"] {
+    margin-top: 10px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.detail{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.champ-input {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 80%;
+}
+th {
+    background-color: rgb(87, 59, 248);
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.actions {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #050505;
+}
+.boite .input-boite-2{
+    display: flex;
+    flex-direction: column;
+}
+/*lister eleve*/
+.modifier{
+    color: rgb(87, 59, 248);
+    height: min-content;
+    width: min-content;
+    border: 2px solid rgb(87, 59, 248);
+    background-color: #fff;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-radius: 8px; /* Ajustez la valeur selon le niveau d'arrondi souhaité */
+    padding: 5px 10px; /* Ajoutez du padding pour améliorer l'apparence */
+    display: inline-block; /* Assure que le bouton ne prend que l'espace nécessaire */
+    text-align: center; /* Centre le texte dans le bouton */
+
+}
+
+.supprimer{
+    color: red;
+    height: min-content;
+    width: min-content;
+    border: 2px solid red;
+    background-color: #fff;
+    border-radius: 8px; /* Ajustez la valeur selon le niveau d'arrondi souhaité */
+    padding: 5px 10px; /* Ajoutez du padding pour améliorer l'apparence */
+    display: inline-block; /* Assure que le bouton ne prend que l'espace nécessaire */
+    text-align: center; /* Centre le texte dans le bouton */
+}
+th {
+    background-color: rgb(87, 59, 248);
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.actions {
+    text-align: center;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+}

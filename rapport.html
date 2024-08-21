@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="monstyles.css">
+    <title>rapport</title>
+</head>
+<body>
+    <header>
+        <h1><img src="logo.jpeg" alt="" class="logo"> Tableau de bord</h1>
+        <div class="container-nav">   
+            <ul>
+                <li><a href="tableau de bord.html" class="active"><a href="" alt="">Tableau de bord</a></li>
+                <li><a href="lister eleve.html"><span class="glyphicon glyphicon-diagram-3"></span> Elèves</a></li>
+                <li><a href="lister prof.html"><span class="glyphicon glyphicon-briefcase-fill"></span></i> Professeurs</a></li>
+                <li><a href="lister utilisateur.html"><span class="glyphicon glyphicon-user"></span>Utilisateurs</a></li>
+                <li><a href="rapport.html"><span class="glyphicon glyphicon-calendar2-week"></span> Rapport</a></li>
+                
+            </ul>
+            <h6><a href="connexion.html"><span class="glyphicon glyphicon-log-out"></span> Déconnexion</a></h6>
+        </div>
+    </header>
+    <div class="container-table">
+        <div class="table">
+            <h2>Rapport </h2>
+
+            <div class="input-boite-2">
+                <select name="sexe" required class="champ-input">
+                    <option value="">Choisir...</option>
+                    <option value="homme">Liste des élèves</option>
+                    <option value="femme">Liste des professeurs</option>
+                    <option value="femme">Liste des utilisateurs</option>
+                </select>
+            </div>
+
+            <div class="btn">
+                <button type="submit" name="inscrire" class="annuler">Générer format pdf</button>
+                <button type="submit" name="enregistrer" class="inscrire">Générer format excel</button>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

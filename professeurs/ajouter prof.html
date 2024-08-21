@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="monstyles.css">
+    <title>ajouter eleve</title>
+</head>
+<body>
+   <div class="container-general">
+    <header>
+        <h1><img src="logo.jpeg" alt="" class="logo"> Tableau de bord</h1>
+        <div class="container-nav">   
+            <ul>
+                <li><a href="tableau de bord.html" class="active"><a href="" alt="">Tableau de bord</a></li>
+                <li><a href="lister eleve.html"><span class="glyphicon glyphicon-diagram-3"></span> Elèves</a></li>
+                <li><a href="lister prof.html"><span class="glyphicon glyphicon-briefcase-fill"></span></i> Professeurs</a></li>
+                <li><a href="lister utilisateur.html"><span class="glyphicon glyphicon-user"></span>Utilisateurs</a></li>
+                <li><a href="rapport.html"><span class="glyphicon glyphicon-calendar2-week"></span> Rapport</a></li>
+                
+            </ul>
+            <h6><a href="connexion.html"><span class="glyphicon glyphicon-log-out"></span> Déconnexion</a></h6>
+        </div>
+    </header>
+
+    <section class="inscription">
+        <h6><a href="tableau de bord.html"><span class="glyphicon glyphicon-arrow-lef"></span>Retour</a></h6>
+        <h2 class="titre">Ajouter un professeur</h2>
+        <form action="" method="post" class="boite-form" enctype="multipart/form-data">
+            <div class="boite">
+                <div class="detail">
+                    <div class="input-boite-2">
+                        <p>Nom</p>
+                        <input type="text" name="nom" placeholder="Votre nom" required class="champ-input">
+                    </div>
+
+                    <div class="input-boite-2">
+                        <p>Prénom</p>
+                        <input type="text" name="prenom" placeholder="Votre prénom" required class="champ-input">
+                    </div>
+
+                    <div class="input-boite-2">
+                        <p>Sexe</p>
+                        <select name="sexe" required class="champ-input">
+                            <option value="">Choisir...</option>
+                            <option value="homme">Homme</option>
+                            <option value="femme">Femme</option>
+                        </select>
+                    </div>
+
+                    
+                    <div class="input-boite-2">
+                        <p>Matricule</p>
+                        <input type="text" name="prenom" placeholder="Votre matricule" required class="champ-input">
+                    </div>
+                </div>
+
+                <div class="detail">
+
+                    <div class="input-boite-2">
+                        <p>Date de naissance</p>
+                        <input type="date" name="piece_file"  class="champ-input">
+                    </div>
+                    
+                    <div class="input-boite-2">
+                        <p>Classe</p>
+                        <select name="metier" required class="champ-input">
+                            <option value="">Choisir...</option>
+                            <option value="couture">Tle</option>
+                            <option value="artisanat d’art et de décoration">1 ère</option>
+                            <option value="mecanique ">2 nd </option>
+                            <option value="agroalimentaire, alimentation, restauration ">3 ème </option>
+                            <option value="maçonnerie ">4 ème </option>
+                            <option value="transport">5 ème</option>
+                            <option value="menuiserie/charpenterie">6 ème</option>
+                            <!-- Ajouter d'autres options ici -->
+                        </select>
+                    </div>
+                    <div class="input-boite-2">
+                        <p>Numéro de téléphone</p>
+                        <input type="tel" name="whatsapp" placeholder="Votre numéro de téléphone" required class="champ-input">
+                    </div>
+                    <div class="input-boite-2">
+                        <p>Ville</p>
+                        <input type="text" name="prenom" placeholder="Votre ville" required class="champ-input">
+                    </div>
+                    
+                </div>
+            </div>
+
+            <!-- Case à cocher pour les termes et conditions -->
+
+            <div class="btn">
+                <button type="submit" name="inscrire" class="annuler">Annuler</button>
+                <button type="submit" name="enregistrer" class="inscrire">Enregistrer</button>
+            </div>
+            
+        </form>
+    </section>
+
+   </div>
+</body>
+</html>
